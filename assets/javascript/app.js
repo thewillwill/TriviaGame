@@ -671,8 +671,6 @@ function showGoogleMaps(lat, long) {
     });
 }
 
-//google.maps.event.addDomListener(window, 'load', showGoogleMaps(27.1959739, 78.02423269999997));
-
 
 
 
