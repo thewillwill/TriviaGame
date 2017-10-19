@@ -1,64 +1,4 @@
-/***********************
- * Some of the Top Styles below from Bootstrap Jumbotron Narrow
- ************************/
 
-
-/* Space out content a bit */
-
-body {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;    
-}
-
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-
-.header,
-.marketing,
-.footer {
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
-
-
-/* Make the masthead heading the same height as the navigation */
-
-
-/* Custom page footer */
-
-.footer {
-    padding-top: 1.5rem;
-    color: #777;
-}
-
-
-/* Customize container */
-
-@media (min-width: 48em) {
-    .container {
-        max-width: 60rem;
-        height: 100%;
-        min-height: 100%;
-    }
-}
-
-
-
-/* Responsive: Portrait tablets and up */
-
-@media screen and (min-width: 48em) {
-    /* Remove the padding we set earlier */
-    .header,
-    .marketing,
-    .footer {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 2rem;
-    }
-}
 
 
 
@@ -66,62 +6,101 @@ body {
  * New styles CSS by Will
  ***********************/
 
-.enemy-selected {
-    border-bottom: 1px dotted blue;
+.map-container {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 500px;
+    background: black;
+    -webkit-box-shadow: inset 0 0 5rem rgba(0, 0, 0, .9);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .9);
+    height: 400px;
+}
+
+.gmap-background {
     position: absolute;
-    height: 3.5em;
-    width: 3.5em;
-    top: 150px;
-    left: 200px;
+    background-image: url("../images/map.png");
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin:0px;
 }
 
 
-.map-container {
-    margin-top: 20px;
+.header-container {
     position: relative;
     min-width: 500px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     -webkit-box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
     background-blend-mode: multiply;
 }
 
-.bigger {
-      height: 500px;
-      box-shadow: inset 0 0 5rem rgba(0, 0, 0, 1);
+.timer-display {
+    font-size: 28px;
+
 }
 
-.btn-map {
-  position: absolute;
-    border: black solid 1px;
-    padding: 20px;
-    margin: 20px;
-    background: rgba(255, 255, 255, 0.5);
-    top: 150px;
-    left: 300px;
-    font-size: 3em;
+.seconds-display {
+    font-size: 10px;
 }
 
-.btn-map-attack {
-  position: absolute;
-    border: black solid 1px;
-    padding: 10px;
-    margin: 20px;
-    background: rgba(255, 255, 255, 0.5);
-    top: 300px;
-    left: 300px;
-}
 
-.score-container {
+.btn-big {
     position: absolute;
-    top: 10;
-    right: 0;
-    border: black solid 2px;
-    padding: 15px;
-    margin: 20px;
-    background: rgba(0, 0, 0, 0.4);
+    top: 30%;
+    left: 40%;
+    width: 20%;
+    height: 30%;
+        border: rgb(232,142,94) solid 2px;
+    background: rgba(223,210,176, 0.75);
+    -webkit-box-shadow: inset 0 0 5rem rgba(255, 255, 255, .5);
+    box-shadow: inset 0 0 5rem rgba(255, 255, 255, .5);
+    /*background-blend-mode: multiply;*/
+    font-size: 30px;
+    padding: 20px;
+}
+
+.btn-big:hover {
+    border: rgb(232,142,94) solid 2px;
+    background: rgba(232,142,94, 0.75);
+    cursor: pointer;
+}
+
+
+.box {
+    border: rgb(232,142,94) solid 2px;
+    background: rgba(223,210,176, 0.75);
+    -webkit-box-shadow: inset 0 0 5rem rgba(255, 255, 255, .5);
+    box-shadow: inset 0 0 5rem rgba(255, 255, 255, .5);
+    /*background-blend-mode: multiply;*/
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
+.question-box {
+        background: rgba(223,210,176, 0.9);
+}
+
+.answer-box {
+    background: rgba(223,210,176, 0.9);
+}
+
+.score-box {
+    border: rgb(232,142,94) solid 2px;
+    background: rgba(223,210,176, 0.75);
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.score-box-title {
+    margin: 5px 0px;
+    font-size: 14px;
+    border-bottom: solid 1px rgb(232,142,94);
 }
 
 .score-user {
@@ -129,12 +108,7 @@ body {
 }
 
 .messages-container {
-  position: absolute;
-  bottom: 0;
-  left: 0;
     border: black solid 2px;
-    padding: 15px;
-    margin: 20px;
     background: rgba(0, 0, 0, 0.4);
     min-width: 250px;
     min-height: 50px;
@@ -150,33 +124,73 @@ body {
 }
 
 .game-title {
-    font-family: 'Homemade Apple', cursive;
+
 }
 
 .score-title {
   font-weight: bold;
   text-decoration: underline;
-
 }
+
+
 
 
 /*
- * Character Colors
+ * Answers
  */
 
+.possible-answer,
+.incorrect-answer {
 
-.facebook {
-    color: navy;
+
 }
 
-.twitter {
-    color: lightblue;
+.possible-answer:hover{
+    background-color: #a4ccfd;
+    cursor: pointer;
 }
 
-.google {
+.correct-answer {
+    font-weight: bold;
+    background-color: #cbe6a5;
+}
+
+.fa-check {
     color: green;
 }
 
-.apple {
-    color: white;
+.fa-times {
+    color: red;
 }
+
+li {
+    list-style: none;
+}
+
+
+    
+/* pale green
+#cbe6a5
+rgb(203,230,165)*/
+
+/*paleorange: rgb(232,142,94);*/
+
+/*pale blue
+rgb(164,204,253)
+
+#a4ccfd
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
