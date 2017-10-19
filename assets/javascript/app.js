@@ -1,6 +1,7 @@
 // TO DO
 //  googleMapsAPI = "AIzaSyDaNawaFmIi-kGyIDoa4HZ7j5WfR11w0DM";
 //AIzaSyDLVyv4rD6_xg-U-QbpklwTh1XSJxWJhFc
+// Display time for next question
 //
 
 // -----------------------------
@@ -27,8 +28,14 @@ function Country(name, capital, lat, long, continent) {
 };
 
 var australia = new Country("Australia", "Canberra", "-35.26666667", "149.133333", "Asia");
-var newzealand = new Country("New Zealand", "Hamilton", "", "", "Asia");
-var japan = new Country("Japan", "Tokyo", "", "", "Asia");
+var newzealand = new Country("New Zealand", "Wellington", "-41.3", "174.783333", "Asia");
+var japan = new Country("Japan", "Tokyo", "35.68333333", "  139.75", "Asia");
+var angola = new Country("Angola", "Luanda", "-8.833333333", "13.216667", "Africa");
+var guinea = new Country("Guinea", "Conakry", "9.5", "-13.7", "Africa");
+var kenya = new Country("Kenya", "Nairobi", "-1.283333333", "36.816667", "Africa");
+
+
+var japan = new Country("Japan", "Tokyo", "35.68333333", "  139.75", "Asia");
 
 var countries = []; //array of all country objects
 var pickedCountries = []; //indexes of the countries previously selected in this game
@@ -52,10 +59,10 @@ var crossIcon = "<i class='fa fa-times' aria-hidden='true'></i>";
 var numPossibleAnswers = 3; // the number of questions the user has to choose from
 var timeBetweenQuestions = 5; //number of seconds before next question displayed
 var maxTime = 5; //number of seconds per question
-var numQuestions = 2;
+var numQuestions = 3;
 
 
-//Timer Variables
+//Question Timer Variables
 //---------------
 var intervalId;
 var timeRemaining = true;
@@ -71,7 +78,7 @@ var timer = {
         timer.time = maxTime;
 
         //  TODO: Change the "display" div to "00:00."
-        $("#timer-seconds").text("5");
+        $("#timer-seconds").text(maxTime);
 
     },
 
@@ -112,14 +119,79 @@ var timer = {
     }
 }
 
+//Delay Timer (between questiosn) Variables
+//---------------
+var intervalDelayID;
+
+//  delay timer object.
+var delayTimer = {
+
+    time: timeBetweenQuestions,
+
+    reset: function() {
+        console.log("-->delayTimer reset()");
+        delayTimer.time = timeBetweenQuestions;
+
+        //  TODO: Change the "display" div to "00:00."
+        $("#delayTimer-seconds").text(timeBetweenQuestions);
+
+    },
+
+    start: function() {
+        console.log("-->delayTimer start()");
+        //start the count here and set the clock to running.
+        if (!clockRunning) {
+            intervalId = setInterval(delayTimer.count, 1000); //display updated counter every second
+        }
+
+    },
+
+    stop: function() {
+        console.log("-->delayTimer stop() delayTimer.time: " + delayTimer.time);
+        //stop the count here and set the clock to not be running.
+        clearInterval(intervalDelayId);
+
+    },
+
+    count: function() {
+        if (delayTimer.time == 0) {
+            // delayTimer.stop();
+            // console.log("-->delayTimer finished");
+        } else {
+
+
+            //  TODO: increment time by 1, remember we cant use "this" here.
+            delayTimer.time--;
+
+            //  TODO: Get the current time, pass that into the delayTimer.timeConverter function,
+            //        and save the result in a variable.
+            //  TODO: Use the variable you just created to show the converted time in the "display" div.
+            $("#delayTimer-seconds").text(delayTimer.time);
+        }
+
+    }
+}
+
+
 
 // -----------------------------
 //   Functions
 // -----------------------------
 
+//2PACX-1vTRH-ZC4heeLbrAKfHbKWG8QVFAgYtGXdq90tm7zIidgbxAB9hw-ZeTpWh05W5ciCKyId-uyduFFhnj
 
 //listener for document ready
 $(document).ready(function() {
+
+    var corURL = "https://cors-anywhere.herokuapp.com/";
+    var sheetsURL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTRH-ZC4heeLbrAKfHbKWG8QVFAgYtGXdq90tm7zIidgbxAB9hw-ZeTpWh05W5ciCKyId-uyduFFhnj/pub?gid=1043611901&single=true&output=csv";
+    var requestURL = corURL + sheetsURL;
+
+    $.getJSON(requestURL, function(data) {
+        console.log("getting JSON");
+        //first row "title" column
+        console.log(data.feed.entry[0]['gsx$title']['$t']);
+    });
 
     //doc loaded
 
@@ -143,7 +215,10 @@ $(document).ready(function() {
     //set up the countries array
     countries[0] = australia;
     countries[1] = newzealand;
-    countries[2] = japan;
+    countries[2] = angola;
+    countries[3] = guinea;
+    countries[4] = kenya;
+    countries[5] = japan;
 
 
 
@@ -195,7 +270,7 @@ $(document).ready(function() {
         pickedAnswers = []; //array of string answers (including correct answer) (length = numpickedAnswers)
         $(".box").show();
         $("#restart-button").hide();
-        $("#countries-visited").empty(); 
+        $("#countries-visited").empty();
         newQuestion();
     }) //end answer click listener 
 
@@ -233,6 +308,7 @@ function newQuestion() {
         console.log("Questions finished");
         $(".box").hide();
         $("#restart-button").show();
+        $("#message-area").empty();
         return;
 
     }
@@ -340,6 +416,9 @@ function displayPossibleAnswers() {
 function showCorrectAnswer(userCorrect) {
     timeRemaining = false;
     timer.stop();
+
+    // intervalDelayId = setInterval(timer.count, 1000); //delayTimer
+
     //empty the old answers
     $("#answers").empty();
     pickedAnswers.forEach(function(element, index) {
@@ -380,11 +459,12 @@ function showCorrectAnswer(userCorrect) {
     }
 
     //move the background google map to display the correct capital city
-
+    showGoogleMaps(selectedCountry.lat, selectedCountry.long);
 
     //start the next question after a delay
     console.log("New timeout starter");
     setTimeout(function() {
+        // delayTimer.start();
         newQuestion();
     }, timeBetweenQuestions * 1000);
 
@@ -411,221 +491,172 @@ function showGoogleMaps(lat, long) {
         disableDefaultUI: true,
 
         center: latLng,
-        styles: [
-  {
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#ebe3cd"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#523735"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#f5f1e6"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#c9b2a6"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#dcd2be"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#ae9e90"
-      }
-    ]
-  },
-  {
-    "featureType": "landscape.natural",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#93817c"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "geometry.fill",
-    "stylers": [
-      {
-        "color": "#a5b076"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#447530"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#f5f1e6"
-      }
-    ]
-  },
-  {
-    "featureType": "road.arterial",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#fdfcf8"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#f8c967"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#e9bc62"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway.controlled_access",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#e98d58"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway.controlled_access",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#db8555"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#806b63"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#8f7d77"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#ebe3cd"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.station",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "geometry.fill",
-    "stylers": [
-      {
-        "color": "#b9d3c2"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#92998d"
-      }
-    ]
-  }
-]
+        styles: [{
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#ebe3cd"
+                }]
+            },
+            {
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#523735"
+                }]
+            },
+            {
+                "elementType": "labels.text.stroke",
+                "stylers": [{
+                    "color": "#f5f1e6"
+                }]
+            },
+            {
+                "featureType": "administrative",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "color": "#c9b2a6"
+                }]
+            },
+            {
+                "featureType": "administrative.land_parcel",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "color": "#dcd2be"
+                }]
+            },
+            {
+                "featureType": "administrative.land_parcel",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#ae9e90"
+                }]
+            },
+            {
+                "featureType": "landscape.natural",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#dfd2ae"
+                }]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#dfd2ae"
+                }]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#93817c"
+                }]
+            },
+            {
+                "featureType": "poi.park",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#a5b076"
+                }]
+            },
+            {
+                "featureType": "poi.park",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#447530"
+                }]
+            },
+            {
+                "featureType": "road",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#f5f1e6"
+                }]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#fdfcf8"
+                }]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#f8c967"
+                }]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "color": "#e9bc62"
+                }]
+            },
+            {
+                "featureType": "road.highway.controlled_access",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#e98d58"
+                }]
+            },
+            {
+                "featureType": "road.highway.controlled_access",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "color": "#db8555"
+                }]
+            },
+            {
+                "featureType": "road.local",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#806b63"
+                }]
+            },
+            {
+                "featureType": "transit.line",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#dfd2ae"
+                }]
+            },
+            {
+                "featureType": "transit.line",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#8f7d77"
+                }]
+            },
+            {
+                "featureType": "transit.line",
+                "elementType": "labels.text.stroke",
+                "stylers": [{
+                    "color": "#ebe3cd"
+                }]
+            },
+            {
+                "featureType": "transit.station",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#dfd2ae"
+                }]
+            },
+            {
+                "featureType": "water",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#b9d3c2"
+                }]
+            },
+            {
+                "featureType": "water",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#92998d"
+                }]
+            }
+        ]
     };
 
     map = new google.maps.Map(document.getElementById('googlemaps'),
