@@ -56,10 +56,10 @@ var crossIcon = "<i class='fa fa-times' aria-hidden='true'></i>";
 
 //Game Settings
 //---------------
-var numPossibleAnswers = 3; // the number of questions the user has to choose from
-var timeBetweenQuestions = 5; //number of seconds before next question displayed
+var numQuestions = 5; //the total number of questions asked
+var numPossibleAnswers = 4; // the number of questions the user has to choose from
+var timeBetweenQuestions = 2; //number of seconds before next question displayed
 var maxTime = 5; //number of seconds per question
-var numQuestions = 3;
 
 
 //Question Timer Variables
@@ -248,7 +248,7 @@ $(document).ready(function() {
 
             } else {
                 //wrong answer picked
-                showCorrectAnswer(false);
+                showCorrectAnswer(false, userPick);
                 increaseWrongCount(true); //increase the number of wrong count with true parament to indicate wrong answer picked (not time running out)
             }
         } else {
@@ -266,10 +266,13 @@ $(document).ready(function() {
         pickedCountries = []; //indexes of the countries previously selected in this game
         selectedCountry = ""; //object holding the selected country object
         correct = 0;
+        $("#correct-number").text(correct);
         wrong = 0;
-        pickedAnswers = []; //array of string answers (including correct answer) (length = numpickedAnswers)
+        $("#wrong-number").text(wrong);
+        pickedAnswers = []; //empty the list of previously picked anwers
         $(".box").show();
         $("#restart-button").hide();
+        console.log("empying country names");
         $("#countries-visited").empty();
         newQuestion();
     }) //end answer click listener 
@@ -298,19 +301,19 @@ function resetGlobals() {
 }
 
 function newQuestion() {
+
     console.log("------> NEW Question");
     // if (pickedCountries[0]) {
     //     console.log("-> last country: " + pickedCountries[pickedCountries.length-1]);
     // }
-
+            $("#message-area").empty();
     if (pickedCountries.length == numQuestions) {
         //end game and show reset button.
         console.log("Questions finished");
         $(".box").hide();
         $("#restart-button").show();
-        $("#message-area").empty();
-        return;
 
+        return;
     }
 
     selectedCountry = "";
@@ -318,7 +321,7 @@ function newQuestion() {
     //console.log("-->set AnswerChosen to false");
     answerChosen = false;
 
-    //hide the next question timer
+    //hide the next question message timer
     $("#next-question-message").hide(); //show the next question timer
 
     //this prevents an infinite loop in the unlikely event that all questions have been exhausted (not going to happen unless maxQuestions get set to greater than the number of questions available)
@@ -413,7 +416,7 @@ function displayPossibleAnswers() {
     })
 }
 
-function showCorrectAnswer(userCorrect) {
+function showCorrectAnswer(userCorrect, userPick) {
     timeRemaining = false;
     timer.stop();
 
@@ -422,7 +425,7 @@ function showCorrectAnswer(userCorrect) {
     //empty the old answers
     $("#answers").empty();
     pickedAnswers.forEach(function(element, index) {
-        //apply different styling to incorrect answer
+        //apply different styling to correct answer
         console.log("element: " + element)
         console.log("Capital: " + selectedCountry.capital)
         if (element == selectedCountry.capital) {
@@ -433,16 +436,25 @@ function showCorrectAnswer(userCorrect) {
                 .text(element)
             );
         }
-        //apply different styling to correct answer
+        //apply different styling to user incorrect answer
+        else if (element == userPick) {
+            $("#answers").append(
+                $("<li/>")
+                .attr({ "id": element, "data-value": element })
+                .addClass("incorrect-answer")
+                .text(element)
+            );
+        }
+        //dont apply any styling to these answers
         else {
             $("#answers").append(
                 $("<li/>")
                 .attr({ "id": element, "data-value": element })
-                .addClass("wrong-answer")
                 .text(element)
             );
-
         }
+
+
 
     })
     //add to the visible list of "countries visited"
@@ -450,12 +462,12 @@ function showCorrectAnswer(userCorrect) {
         //display a tick after to the country
         $("#countries-visited").append(
             $("<li/>")
-            .html(selectedCountry.capital + ", " + selectedCountry.name + " " + tickIcon));
+            .html(tickIcon + " " +selectedCountry.capital + ", " + selectedCountry.name).addClass("country-name"));
     } else {
         //dislay a cross after the country name
         $("#countries-visited").append(
             $("<li/>")
-            .html(selectedCountry.capital + ", " + selectedCountry.name + " " + crossIcon));
+            .html(crossIcon + " " + selectedCountry.capital + ", " + selectedCountry.name).addClass("country-name"));
     }
 
     //move the background google map to display the correct capital city

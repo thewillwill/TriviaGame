@@ -1,0 +1,1717 @@
+{
+  "Afghanistan" : {
+    "Country" : "Afghanistan",
+    "Capital" : "Kabul",
+    "Lat" : "34.51666667",
+    "Long" : "69.183333",
+    "Continent" : "Asia"
+  },
+  "Aland Islands" : {
+    "Country" : "Aland Islands",
+    "Capital" : "Mariehamn",
+    "Lat" : "60.116667",
+    "Long" : "19.9",
+    "Continent" : "Europe"
+  },
+  "Albania" : {
+    "Country" : "Albania",
+    "Capital" : "Tirana",
+    "Lat" : "41.31666667",
+    "Long" : "19.816667",
+    "Continent" : "Europe"
+  },
+  "Algeria" : {
+    "Country" : "Algeria",
+    "Capital" : "Algiers",
+    "Lat" : "36.75",
+    "Long" : "3.05",
+    "Continent" : "Africa"
+  },
+  "American Samoa" : {
+    "Country" : "American Samoa",
+    "Capital" : "Pago Pago",
+    "Lat" : "-14.26666667",
+    "Long" : "-170.7",
+    "Continent" : "Australia"
+  },
+  "Andorra" : {
+    "Country" : "Andorra",
+    "Capital" : "Andorra la Vella",
+    "Lat" : "42.5",
+    "Long" : "1.516667",
+    "Continent" : "Europe"
+  },
+  "Angola" : {
+    "Country" : "Angola",
+    "Capital" : "Luanda",
+    "Lat" : "-8.833333333",
+    "Long" : "13.216667",
+    "Continent" : "Africa"
+  },
+  "Anguilla" : {
+    "Country" : "Anguilla",
+    "Capital" : "The Valley",
+    "Lat" : "18.21666667",
+    "Long" : "-63.05",
+    "Continent" : "North America"
+  },
+  "Antarctica" : {
+    "Country" : "Antarctica",
+    "Capital" : "N/A",
+    "Lat" : "0",
+    "Long" : "0",
+    "Continent" : "Antarctica"
+  },
+  "Antigua and Barbuda" : {
+    "Country" : "Antigua and Barbuda",
+    "Capital" : "Saint John’s",
+    "Lat" : "17.11666667",
+    "Long" : "-61.85",
+    "Continent" : "North America"
+  },
+  "Argentina" : {
+    "Country" : "Argentina",
+    "Capital" : "Buenos Aires",
+    "Lat" : "-34.58333333",
+    "Long" : "-58.666667",
+    "Continent" : "South America"
+  },
+  "Armenia" : {
+    "Country" : "Armenia",
+    "Capital" : "Yerevan",
+    "Lat" : "40.16666667",
+    "Long" : "44.5",
+    "Continent" : "Europe"
+  },
+  "Aruba" : {
+    "Country" : "Aruba",
+    "Capital" : "Oranjestad",
+    "Lat" : "12.51666667",
+    "Long" : "-70.033333",
+    "Continent" : "North America"
+  },
+  "Australia" : {
+    "Country" : "Australia",
+    "Capital" : "Canberra",
+    "Lat" : "-35.26666667",
+    "Long" : "149.133333",
+    "Continent" : "Australia"
+  },
+  "Austria" : {
+    "Country" : "Austria",
+    "Capital" : "Vienna",
+    "Lat" : "48.2",
+    "Long" : "16.366667",
+    "Continent" : "Europe"
+  },
+  "Azerbaijan" : {
+    "Country" : "Azerbaijan",
+    "Capital" : "Baku",
+    "Lat" : "40.38333333",
+    "Long" : "49.866667",
+    "Continent" : "Europe"
+  },
+  "Bahamas" : {
+    "Country" : "Bahamas",
+    "Capital" : "Nassau",
+    "Lat" : "25.08333333",
+    "Long" : "-77.35",
+    "Continent" : "North America"
+  },
+  "Bahrain" : {
+    "Country" : "Bahrain",
+    "Capital" : "Manama",
+    "Lat" : "26.23333333",
+    "Long" : "50.566667",
+    "Continent" : "Asia"
+  },
+  "Bangladesh" : {
+    "Country" : "Bangladesh",
+    "Capital" : "Dhaka",
+    "Lat" : "23.71666667",
+    "Long" : "90.4",
+    "Continent" : "Asia"
+  },
+  "Barbados" : {
+    "Country" : "Barbados",
+    "Capital" : "Bridgetown",
+    "Lat" : "13.1",
+    "Long" : "-59.616667",
+    "Continent" : "North America"
+  },
+  "Belarus" : {
+    "Country" : "Belarus",
+    "Capital" : "Minsk",
+    "Lat" : "53.9",
+    "Long" : "27.566667",
+    "Continent" : "Europe"
+  },
+  "Belgium" : {
+    "Country" : "Belgium",
+    "Capital" : "Brussels",
+    "Lat" : "50.83333333",
+    "Long" : "4.333333",
+    "Continent" : "Europe"
+  },
+  "Belize" : {
+    "Country" : "Belize",
+    "Capital" : "Belmopan",
+    "Lat" : "17.25",
+    "Long" : "-88.766667",
+    "Continent" : "Central America"
+  },
+  "Benin" : {
+    "Country" : "Benin",
+    "Capital" : "Porto-Novo",
+    "Lat" : "6.483333333",
+    "Long" : "2.616667",
+    "Continent" : "Africa"
+  },
+  "Bermuda" : {
+    "Country" : "Bermuda",
+    "Capital" : "Hamilton",
+    "Lat" : "32.28333333",
+    "Long" : "-64.783333",
+    "Continent" : "North America"
+  },
+  "Bhutan" : {
+    "Country" : "Bhutan",
+    "Capital" : "Thimphu",
+    "Lat" : "27.46666667",
+    "Long" : "89.633333",
+    "Continent" : "Asia"
+  },
+  "Bolivia" : {
+    "Country" : "Bolivia",
+    "Capital" : "La Paz",
+    "Lat" : "-16.5",
+    "Long" : "-68.15",
+    "Continent" : "South America"
+  },
+  "Bosnia and Herzegovina" : {
+    "Country" : "Bosnia and Herzegovina",
+    "Capital" : "Sarajevo",
+    "Lat" : "43.86666667",
+    "Long" : "18.416667",
+    "Continent" : "Europe"
+  },
+  "Botswana" : {
+    "Country" : "Botswana",
+    "Capital" : "Gaborone",
+    "Lat" : "-24.63333333",
+    "Long" : "25.9",
+    "Continent" : "Africa"
+  },
+  "Brazil" : {
+    "Country" : "Brazil",
+    "Capital" : "Brasilia",
+    "Lat" : "-15.78333333",
+    "Long" : "-47.916667",
+    "Continent" : "South America"
+  },
+  "British Indian Ocean Territory" : {
+    "Country" : "British Indian Ocean Territory",
+    "Capital" : "Diego Garcia",
+    "Lat" : "-7.3",
+    "Long" : "72.4",
+    "Continent" : "Africa"
+  },
+  "British Virgin Islands" : {
+    "Country" : "British Virgin Islands",
+    "Capital" : "Road Town",
+    "Lat" : "18.41666667",
+    "Long" : "-64.616667",
+    "Continent" : "North America"
+  },
+  "Brunei Darussalam" : {
+    "Country" : "Brunei Darussalam",
+    "Capital" : "Bandar Seri Begawan",
+    "Lat" : "4.883333333",
+    "Long" : "114.933333",
+    "Continent" : "Asia"
+  },
+  "Bulgaria" : {
+    "Country" : "Bulgaria",
+    "Capital" : "Sofia",
+    "Lat" : "42.68333333",
+    "Long" : "23.316667",
+    "Continent" : "Europe"
+  },
+  "Burkina Faso" : {
+    "Country" : "Burkina Faso",
+    "Capital" : "Ouagadougou",
+    "Lat" : "12.36666667",
+    "Long" : "-1.516667",
+    "Continent" : "Africa"
+  },
+  "Burundi" : {
+    "Country" : "Burundi",
+    "Capital" : "Bujumbura",
+    "Lat" : "-3.366666667",
+    "Long" : "29.35",
+    "Continent" : "Africa"
+  },
+  "Cambodia" : {
+    "Country" : "Cambodia",
+    "Capital" : "Phnom Penh",
+    "Lat" : "11.55",
+    "Long" : "104.916667",
+    "Continent" : "Asia"
+  },
+  "Cameroon" : {
+    "Country" : "Cameroon",
+    "Capital" : "Yaounde",
+    "Lat" : "3.866666667",
+    "Long" : "11.516667",
+    "Continent" : "Africa"
+  },
+  "Canada" : {
+    "Country" : "Canada",
+    "Capital" : "Ottawa",
+    "Lat" : "45.41666667",
+    "Long" : "-75.7",
+    "Continent" : "Central America"
+  },
+  "Cape Verde" : {
+    "Country" : "Cape Verde",
+    "Capital" : "Praia",
+    "Lat" : "14.91666667",
+    "Long" : "-23.516667",
+    "Continent" : "Africa"
+  },
+  "Cayman Islands" : {
+    "Country" : "Cayman Islands",
+    "Capital" : "George Town",
+    "Lat" : "19.3",
+    "Long" : "-81.383333",
+    "Continent" : "North America"
+  },
+  "Central African Republic" : {
+    "Country" : "Central African Republic",
+    "Capital" : "Bangui",
+    "Lat" : "4.366666667",
+    "Long" : "18.583333",
+    "Continent" : "Africa"
+  },
+  "Chad" : {
+    "Country" : "Chad",
+    "Capital" : "N’Djamena",
+    "Lat" : "12.1",
+    "Long" : "15.033333",
+    "Continent" : "Africa"
+  },
+  "Chile" : {
+    "Country" : "Chile",
+    "Capital" : "Santiago",
+    "Lat" : "-33.45",
+    "Long" : "-70.666667",
+    "Continent" : "South America"
+  },
+  "China" : {
+    "Country" : "China",
+    "Capital" : "Beijing",
+    "Lat" : "39.91666667",
+    "Long" : "116.383333",
+    "Continent" : "Asia"
+  },
+  "Christmas Island" : {
+    "Country" : "Christmas Island",
+    "Capital" : "The Settlement",
+    "Lat" : "-10.41666667",
+    "Long" : "105.716667",
+    "Continent" : "Australia"
+  },
+  "Cocos Islands" : {
+    "Country" : "Cocos Islands",
+    "Capital" : "West Island",
+    "Lat" : "-12.16666667",
+    "Long" : "96.833333",
+    "Continent" : "Australia"
+  },
+  "Colombia" : {
+    "Country" : "Colombia",
+    "Capital" : "Bogota",
+    "Lat" : "4.6",
+    "Long" : "-74.083333",
+    "Continent" : "South America"
+  },
+  "Comoros" : {
+    "Country" : "Comoros",
+    "Capital" : "Moroni",
+    "Lat" : "-11.7",
+    "Long" : "43.233333",
+    "Continent" : "Africa"
+  },
+  "Cook Islands" : {
+    "Country" : "Cook Islands",
+    "Capital" : "Avarua",
+    "Lat" : "-21.2",
+    "Long" : "-159.766667",
+    "Continent" : "Australia"
+  },
+  "Costa Rica" : {
+    "Country" : "Costa Rica",
+    "Capital" : "San Jose",
+    "Lat" : "9.933333333",
+    "Long" : "-84.083333",
+    "Continent" : "Central America"
+  },
+  "Cote d’Ivoire" : {
+    "Country" : "Cote d’Ivoire",
+    "Capital" : "Yamoussoukro",
+    "Lat" : "6.816666667",
+    "Long" : "-5.266667",
+    "Continent" : "Africa"
+  },
+  "Croatia" : {
+    "Country" : "Croatia",
+    "Capital" : "Zagreb",
+    "Lat" : "45.8",
+    "Long" : "16",
+    "Continent" : "Europe"
+  },
+  "Cuba" : {
+    "Country" : "Cuba",
+    "Capital" : "Havana",
+    "Lat" : "23.11666667",
+    "Long" : "-82.35",
+    "Continent" : "North America"
+  },
+  "CuraÃ§ao" : {
+    "Country" : "CuraÃ§ao",
+    "Capital" : "Willemstad",
+    "Lat" : "12.1",
+    "Long" : "-68.916667",
+    "Continent" : "North America"
+  },
+  "Cyprus" : {
+    "Country" : "Cyprus",
+    "Capital" : "Nicosia",
+    "Lat" : "35.16666667",
+    "Long" : "33.366667",
+    "Continent" : "Europe"
+  },
+  "Czech Republic" : {
+    "Country" : "Czech Republic",
+    "Capital" : "Prague",
+    "Lat" : "50.08333333",
+    "Long" : "14.466667",
+    "Continent" : "Europe"
+  },
+  "Democratic Republic of the Congo" : {
+    "Country" : "Democratic Republic of the Congo",
+    "Capital" : "Kinshasa",
+    "Lat" : "-4.316666667",
+    "Long" : "15.3",
+    "Continent" : "Africa"
+  },
+  "Denmark" : {
+    "Country" : "Denmark",
+    "Capital" : "Copenhagen",
+    "Lat" : "55.66666667",
+    "Long" : "12.583333",
+    "Continent" : "Europe"
+  },
+  "Djibouti" : {
+    "Country" : "Djibouti",
+    "Capital" : "Djibouti",
+    "Lat" : "11.58333333",
+    "Long" : "43.15",
+    "Continent" : "Africa"
+  },
+  "Dominica" : {
+    "Country" : "Dominica",
+    "Capital" : "Roseau",
+    "Lat" : "15.3",
+    "Long" : "-61.4",
+    "Continent" : "North America"
+  },
+  "Dominican Republic" : {
+    "Country" : "Dominican Republic",
+    "Capital" : "Santo Domingo",
+    "Lat" : "18.46666667",
+    "Long" : "-69.9",
+    "Continent" : "North America"
+  },
+  "Ecuador" : {
+    "Country" : "Ecuador",
+    "Capital" : "Quito",
+    "Lat" : "-0.216666667",
+    "Long" : "-78.5",
+    "Continent" : "South America"
+  },
+  "Egypt" : {
+    "Country" : "Egypt",
+    "Capital" : "Cairo",
+    "Lat" : "30.05",
+    "Long" : "31.25",
+    "Continent" : "Africa"
+  },
+  "El Salvador" : {
+    "Country" : "El Salvador",
+    "Capital" : "San Salvador",
+    "Lat" : "13.7",
+    "Long" : "-89.2",
+    "Continent" : "Central America"
+  },
+  "Equatorial Guinea" : {
+    "Country" : "Equatorial Guinea",
+    "Capital" : "Malabo",
+    "Lat" : "3.75",
+    "Long" : "8.783333",
+    "Continent" : "Africa"
+  },
+  "Eritrea" : {
+    "Country" : "Eritrea",
+    "Capital" : "Asmara",
+    "Lat" : "15.33333333",
+    "Long" : "38.933333",
+    "Continent" : "Africa"
+  },
+  "Estonia" : {
+    "Country" : "Estonia",
+    "Capital" : "Tallinn",
+    "Lat" : "59.43333333",
+    "Long" : "24.716667",
+    "Continent" : "Europe"
+  },
+  "Ethiopia" : {
+    "Country" : "Ethiopia",
+    "Capital" : "Addis Ababa",
+    "Lat" : "9.033333333",
+    "Long" : "38.7",
+    "Continent" : "Africa"
+  },
+  "Falkland Islands" : {
+    "Country" : "Falkland Islands",
+    "Capital" : "Stanley",
+    "Lat" : "-51.7",
+    "Long" : "-57.85",
+    "Continent" : "South America"
+  },
+  "Faroe Islands" : {
+    "Country" : "Faroe Islands",
+    "Capital" : "Torshavn",
+    "Lat" : "62",
+    "Long" : "-6.766667",
+    "Continent" : "Europe"
+  },
+  "Federated States of Micronesia" : {
+    "Country" : "Federated States of Micronesia",
+    "Capital" : "Palikir",
+    "Lat" : "6.916666667",
+    "Long" : "158.15",
+    "Continent" : "Australia"
+  },
+  "Fiji" : {
+    "Country" : "Fiji",
+    "Capital" : "Suva",
+    "Lat" : "-18.13333333",
+    "Long" : "178.416667",
+    "Continent" : "Australia"
+  },
+  "Finland" : {
+    "Country" : "Finland",
+    "Capital" : "Helsinki",
+    "Lat" : "60.16666667",
+    "Long" : "24.933333",
+    "Continent" : "Europe"
+  },
+  "France" : {
+    "Country" : "France",
+    "Capital" : "Paris",
+    "Lat" : "48.86666667",
+    "Long" : "2.333333",
+    "Continent" : "Europe"
+  },
+  "French Polynesia" : {
+    "Country" : "French Polynesia",
+    "Capital" : "Papeete",
+    "Lat" : "-17.53333333",
+    "Long" : "-149.566667",
+    "Continent" : "Australia"
+  },
+  "French Southern and Antarctic Lands" : {
+    "Country" : "French Southern and Antarctic Lands",
+    "Capital" : "Port-aux-FranÃ§ais",
+    "Lat" : "-49.35",
+    "Long" : "70.216667",
+    "Continent" : "Antarctica"
+  },
+  "Gabon" : {
+    "Country" : "Gabon",
+    "Capital" : "Libreville",
+    "Lat" : "0.383333333",
+    "Long" : "9.45",
+    "Continent" : "Africa"
+  },
+  "Georgia" : {
+    "Country" : "Georgia",
+    "Capital" : "Tbilisi",
+    "Lat" : "41.68333333",
+    "Long" : "44.833333",
+    "Continent" : "Europe"
+  },
+  "Germany" : {
+    "Country" : "Germany",
+    "Capital" : "Berlin",
+    "Lat" : "52.51666667",
+    "Long" : "13.4",
+    "Continent" : "Europe"
+  },
+  "Ghana" : {
+    "Country" : "Ghana",
+    "Capital" : "Accra",
+    "Lat" : "5.55",
+    "Long" : "-0.216667",
+    "Continent" : "Africa"
+  },
+  "Gibraltar" : {
+    "Country" : "Gibraltar",
+    "Capital" : "Gibraltar",
+    "Lat" : "36.13333333",
+    "Long" : "-5.35",
+    "Continent" : "Europe"
+  },
+  "Greece" : {
+    "Country" : "Greece",
+    "Capital" : "Athens",
+    "Lat" : "37.98333333",
+    "Long" : "23.733333",
+    "Continent" : "Europe"
+  },
+  "Greenland" : {
+    "Country" : "Greenland",
+    "Capital" : "Nuuk",
+    "Lat" : "64.18333333",
+    "Long" : "-51.75",
+    "Continent" : "Central America"
+  },
+  "Grenada" : {
+    "Country" : "Grenada",
+    "Capital" : "Saint George’s",
+    "Lat" : "12.05",
+    "Long" : "-61.75",
+    "Continent" : "North America"
+  },
+  "Guam" : {
+    "Country" : "Guam",
+    "Capital" : "Hagatna",
+    "Lat" : "13.46666667",
+    "Long" : "144.733333",
+    "Continent" : "Australia"
+  },
+  "Guatemala" : {
+    "Country" : "Guatemala",
+    "Capital" : "Guatemala City",
+    "Lat" : "14.61666667",
+    "Long" : "-90.516667",
+    "Continent" : "Central America"
+  },
+  "Guernsey" : {
+    "Country" : "Guernsey",
+    "Capital" : "Saint Peter Port",
+    "Lat" : "49.45",
+    "Long" : "-2.533333",
+    "Continent" : "Europe"
+  },
+  "Guinea" : {
+    "Country" : "Guinea",
+    "Capital" : "Conakry",
+    "Lat" : "9.5",
+    "Long" : "-13.7",
+    "Continent" : "Africa"
+  },
+  "Guinea-Bissau" : {
+    "Country" : "Guinea-Bissau",
+    "Capital" : "Bissau",
+    "Lat" : "11.85",
+    "Long" : "-15.583333",
+    "Continent" : "Africa"
+  },
+  "Guyana" : {
+    "Country" : "Guyana",
+    "Capital" : "Georgetown",
+    "Lat" : "6.8",
+    "Long" : "-58.15",
+    "Continent" : "South America"
+  },
+  "Haiti" : {
+    "Country" : "Haiti",
+    "Capital" : "Port-au-Prince",
+    "Lat" : "18.53333333",
+    "Long" : "-72.333333",
+    "Continent" : "North America"
+  },
+  "Heard Island and McDonald Islands" : {
+    "Country" : "Heard Island and McDonald Islands",
+    "Capital" : "N/A",
+    "Lat" : "0",
+    "Long" : "0",
+    "Continent" : "Antarctica"
+  },
+  "Honduras" : {
+    "Country" : "Honduras",
+    "Capital" : "Tegucigalpa",
+    "Lat" : "14.1",
+    "Long" : "-87.216667",
+    "Continent" : "Central America"
+  },
+  "Hong Kong" : {
+    "Country" : "Hong Kong",
+    "Capital" : "N/A",
+    "Lat" : "0",
+    "Long" : "0",
+    "Continent" : "Asia"
+  },
+  "Hungary" : {
+    "Country" : "Hungary",
+    "Capital" : "Budapest",
+    "Lat" : "47.5",
+    "Long" : "19.083333",
+    "Continent" : "Europe"
+  },
+  "Iceland" : {
+    "Country" : "Iceland",
+    "Capital" : "Reykjavik",
+    "Lat" : "64.15",
+    "Long" : "-21.95",
+    "Continent" : "Europe"
+  },
+  "India" : {
+    "Country" : "India",
+    "Capital" : "New Delhi",
+    "Lat" : "28.6",
+    "Long" : "77.2",
+    "Continent" : "Asia"
+  },
+  "Indonesia" : {
+    "Country" : "Indonesia",
+    "Capital" : "Jakarta",
+    "Lat" : "-6.166666667",
+    "Long" : "106.816667",
+    "Continent" : "Asia"
+  },
+  "Iran" : {
+    "Country" : "Iran",
+    "Capital" : "Tehran",
+    "Lat" : "35.7",
+    "Long" : "51.416667",
+    "Continent" : "Asia"
+  },
+  "Iraq" : {
+    "Country" : "Iraq",
+    "Capital" : "Baghdad",
+    "Lat" : "33.33333333",
+    "Long" : "44.4",
+    "Continent" : "Asia"
+  },
+  "Ireland" : {
+    "Country" : "Ireland",
+    "Capital" : "Dublin",
+    "Lat" : "53.31666667",
+    "Long" : "-6.233333",
+    "Continent" : "Europe"
+  },
+  "Isle of Man" : {
+    "Country" : "Isle of Man",
+    "Capital" : "Douglas",
+    "Lat" : "54.15",
+    "Long" : "-4.483333",
+    "Continent" : "Europe"
+  },
+  "Israel" : {
+    "Country" : "Israel",
+    "Capital" : "Jerusalem",
+    "Lat" : "31.76666667",
+    "Long" : "35.233333",
+    "Continent" : "Asia"
+  },
+  "Italy" : {
+    "Country" : "Italy",
+    "Capital" : "Rome",
+    "Lat" : "41.9",
+    "Long" : "12.483333",
+    "Continent" : "Europe"
+  },
+  "Jamaica" : {
+    "Country" : "Jamaica",
+    "Capital" : "Kingston",
+    "Lat" : "18",
+    "Long" : "-76.8",
+    "Continent" : "North America"
+  },
+  "Japan" : {
+    "Country" : "Japan",
+    "Capital" : "Tokyo",
+    "Lat" : "35.68333333",
+    "Long" : "139.75",
+    "Continent" : "Asia"
+  },
+  "Jersey" : {
+    "Country" : "Jersey",
+    "Capital" : "Saint Helier",
+    "Lat" : "49.18333333",
+    "Long" : "-2.1",
+    "Continent" : "Europe"
+  },
+  "Jordan" : {
+    "Country" : "Jordan",
+    "Capital" : "Amman",
+    "Lat" : "31.95",
+    "Long" : "35.933333",
+    "Continent" : "Asia"
+  },
+  "Kazakhstan" : {
+    "Country" : "Kazakhstan",
+    "Capital" : "Astana",
+    "Lat" : "51.16666667",
+    "Long" : "71.416667",
+    "Continent" : "Asia"
+  },
+  "Kenya" : {
+    "Country" : "Kenya",
+    "Capital" : "Nairobi",
+    "Lat" : "-1.283333333",
+    "Long" : "36.816667",
+    "Continent" : "Africa"
+  },
+  "Kiribati" : {
+    "Country" : "Kiribati",
+    "Capital" : "Tarawa",
+    "Lat" : "-0.883333333",
+    "Long" : "169.533333",
+    "Continent" : "Australia"
+  },
+  "Kosovo" : {
+    "Country" : "Kosovo",
+    "Capital" : "Pristina",
+    "Lat" : "42.66666667",
+    "Long" : "21.166667",
+    "Continent" : "Europe"
+  },
+  "Kuwait" : {
+    "Country" : "Kuwait",
+    "Capital" : "Kuwait City",
+    "Lat" : "29.36666667",
+    "Long" : "47.966667",
+    "Continent" : "Asia"
+  },
+  "Kyrgyzstan" : {
+    "Country" : "Kyrgyzstan",
+    "Capital" : "Bishkek",
+    "Lat" : "42.86666667",
+    "Long" : "74.6",
+    "Continent" : "Asia"
+  },
+  "Laos" : {
+    "Country" : "Laos",
+    "Capital" : "Vientiane",
+    "Lat" : "17.96666667",
+    "Long" : "102.6",
+    "Continent" : "Asia"
+  },
+  "Latvia" : {
+    "Country" : "Latvia",
+    "Capital" : "Riga",
+    "Lat" : "56.95",
+    "Long" : "24.1",
+    "Continent" : "Europe"
+  },
+  "Lebanon" : {
+    "Country" : "Lebanon",
+    "Capital" : "Beirut",
+    "Lat" : "33.86666667",
+    "Long" : "35.5",
+    "Continent" : "Asia"
+  },
+  "Lesotho" : {
+    "Country" : "Lesotho",
+    "Capital" : "Maseru",
+    "Lat" : "-29.31666667",
+    "Long" : "27.483333",
+    "Continent" : "Africa"
+  },
+  "Liberia" : {
+    "Country" : "Liberia",
+    "Capital" : "Monrovia",
+    "Lat" : "6.3",
+    "Long" : "-10.8",
+    "Continent" : "Africa"
+  },
+  "Libya" : {
+    "Country" : "Libya",
+    "Capital" : "Tripoli",
+    "Lat" : "32.88333333",
+    "Long" : "13.166667",
+    "Continent" : "Africa"
+  },
+  "Liechtenstein" : {
+    "Country" : "Liechtenstein",
+    "Capital" : "Vaduz",
+    "Lat" : "47.13333333",
+    "Long" : "9.516667",
+    "Continent" : "Europe"
+  },
+  "Lithuania" : {
+    "Country" : "Lithuania",
+    "Capital" : "Vilnius",
+    "Lat" : "54.68333333",
+    "Long" : "25.316667",
+    "Continent" : "Europe"
+  },
+  "Luxembourg" : {
+    "Country" : "Luxembourg",
+    "Capital" : "Luxembourg",
+    "Lat" : "49.6",
+    "Long" : "6.116667",
+    "Continent" : "Europe"
+  },
+  "Macau" : {
+    "Country" : "Macau",
+    "Capital" : "N/A",
+    "Lat" : "0",
+    "Long" : "0",
+    "Continent" : "Asia"
+  },
+  "Macedonia" : {
+    "Country" : "Macedonia",
+    "Capital" : "Skopje",
+    "Lat" : "42",
+    "Long" : "21.433333",
+    "Continent" : "Europe"
+  },
+  "Madagascar" : {
+    "Country" : "Madagascar",
+    "Capital" : "Antananarivo",
+    "Lat" : "-18.91666667",
+    "Long" : "47.516667",
+    "Continent" : "Africa"
+  },
+  "Malawi" : {
+    "Country" : "Malawi",
+    "Capital" : "Lilongwe",
+    "Lat" : "-13.96666667",
+    "Long" : "33.783333",
+    "Continent" : "Africa"
+  },
+  "Malaysia" : {
+    "Country" : "Malaysia",
+    "Capital" : "Kuala Lumpur",
+    "Lat" : "3.166666667",
+    "Long" : "101.7",
+    "Continent" : "Asia"
+  },
+  "Maldives" : {
+    "Country" : "Maldives",
+    "Capital" : "Male",
+    "Lat" : "4.166666667",
+    "Long" : "73.5",
+    "Continent" : "Asia"
+  },
+  "Mali" : {
+    "Country" : "Mali",
+    "Capital" : "Bamako",
+    "Lat" : "12.65",
+    "Long" : "-8",
+    "Continent" : "Africa"
+  },
+  "Malta" : {
+    "Country" : "Malta",
+    "Capital" : "Valletta",
+    "Lat" : "35.88333333",
+    "Long" : "14.5",
+    "Continent" : "Europe"
+  },
+  "Marshall Islands" : {
+    "Country" : "Marshall Islands",
+    "Capital" : "Majuro",
+    "Lat" : "7.1",
+    "Long" : "171.383333",
+    "Continent" : "Australia"
+  },
+  "Mauritania" : {
+    "Country" : "Mauritania",
+    "Capital" : "Nouakchott",
+    "Lat" : "18.06666667",
+    "Long" : "-15.966667",
+    "Continent" : "Africa"
+  },
+  "Mauritius" : {
+    "Country" : "Mauritius",
+    "Capital" : "Port Louis",
+    "Lat" : "-20.15",
+    "Long" : "57.483333",
+    "Continent" : "Africa"
+  },
+  "Mexico" : {
+    "Country" : "Mexico",
+    "Capital" : "Mexico City",
+    "Lat" : "19.43333333",
+    "Long" : "-99.133333",
+    "Continent" : "Central America"
+  },
+  "Moldova" : {
+    "Country" : "Moldova",
+    "Capital" : "Chisinau",
+    "Lat" : "47",
+    "Long" : "28.85",
+    "Continent" : "Europe"
+  },
+  "Monaco" : {
+    "Country" : "Monaco",
+    "Capital" : "Monaco",
+    "Lat" : "43.73333333",
+    "Long" : "7.416667",
+    "Continent" : "Europe"
+  },
+  "Mongolia" : {
+    "Country" : "Mongolia",
+    "Capital" : "Ulaanbaatar",
+    "Lat" : "47.91666667",
+    "Long" : "106.916667",
+    "Continent" : "Asia"
+  },
+  "Montenegro" : {
+    "Country" : "Montenegro",
+    "Capital" : "Podgorica",
+    "Lat" : "42.43333333",
+    "Long" : "19.266667",
+    "Continent" : "Europe"
+  },
+  "Montserrat" : {
+    "Country" : "Montserrat",
+    "Capital" : "Plymouth",
+    "Lat" : "16.7",
+    "Long" : "-62.216667",
+    "Continent" : "North America"
+  },
+  "Morocco" : {
+    "Country" : "Morocco",
+    "Capital" : "Rabat",
+    "Lat" : "34.01666667",
+    "Long" : "-6.816667",
+    "Continent" : "Africa"
+  },
+  "Mozambique" : {
+    "Country" : "Mozambique",
+    "Capital" : "Maputo",
+    "Lat" : "-25.95",
+    "Long" : "32.583333",
+    "Continent" : "Africa"
+  },
+  "Myanmar" : {
+    "Country" : "Myanmar",
+    "Capital" : "Rangoon",
+    "Lat" : "16.8",
+    "Long" : "96.15",
+    "Continent" : "Asia"
+  },
+  "Namibia" : {
+    "Country" : "Namibia",
+    "Capital" : "Windhoek",
+    "Lat" : "-22.56666667",
+    "Long" : "17.083333",
+    "Continent" : "Africa"
+  },
+  "Nauru" : {
+    "Country" : "Nauru",
+    "Capital" : "Yaren",
+    "Lat" : "-0.5477",
+    "Long" : "166.920867",
+    "Continent" : "Australia"
+  },
+  "Nepal" : {
+    "Country" : "Nepal",
+    "Capital" : "Kathmandu",
+    "Lat" : "27.71666667",
+    "Long" : "85.316667",
+    "Continent" : "Asia"
+  },
+  "Netherlands" : {
+    "Country" : "Netherlands",
+    "Capital" : "Amsterdam",
+    "Lat" : "52.35",
+    "Long" : "4.916667",
+    "Continent" : "Europe"
+  },
+  "New Caledonia" : {
+    "Country" : "New Caledonia",
+    "Capital" : "Noumea",
+    "Lat" : "-22.26666667",
+    "Long" : "166.45",
+    "Continent" : "Australia"
+  },
+  "New Zealand" : {
+    "Country" : "New Zealand",
+    "Capital" : "Wellington",
+    "Lat" : "-41.3",
+    "Long" : "174.783333",
+    "Continent" : "Australia"
+  },
+  "Nicaragua" : {
+    "Country" : "Nicaragua",
+    "Capital" : "Managua",
+    "Lat" : "12.13333333",
+    "Long" : "-86.25",
+    "Continent" : "Central America"
+  },
+  "Niger" : {
+    "Country" : "Niger",
+    "Capital" : "Niamey",
+    "Lat" : "13.51666667",
+    "Long" : "2.116667",
+    "Continent" : "Africa"
+  },
+  "Nigeria" : {
+    "Country" : "Nigeria",
+    "Capital" : "Abuja",
+    "Lat" : "9.083333333",
+    "Long" : "7.533333",
+    "Continent" : "Africa"
+  },
+  "Niue" : {
+    "Country" : "Niue",
+    "Capital" : "Alofi",
+    "Lat" : "-19.01666667",
+    "Long" : "-169.916667",
+    "Continent" : "Australia"
+  },
+  "Norfolk Island" : {
+    "Country" : "Norfolk Island",
+    "Capital" : "Kingston",
+    "Lat" : "-29.05",
+    "Long" : "167.966667",
+    "Continent" : "Australia"
+  },
+  "North Korea" : {
+    "Country" : "North Korea",
+    "Capital" : "Pyongyang",
+    "Lat" : "39.01666667",
+    "Long" : "125.75",
+    "Continent" : "Asia"
+  },
+  "Northern Cyprus" : {
+    "Country" : "Northern Cyprus",
+    "Capital" : "North Nicosia",
+    "Lat" : "35.183333",
+    "Long" : "33.366667",
+    "Continent" : "Europe"
+  },
+  "Northern Mariana Islands" : {
+    "Country" : "Northern Mariana Islands",
+    "Capital" : "Saipan",
+    "Lat" : "15.2",
+    "Long" : "145.75",
+    "Continent" : "Australia"
+  },
+  "Norway" : {
+    "Country" : "Norway",
+    "Capital" : "Oslo",
+    "Lat" : "59.91666667",
+    "Long" : "10.75",
+    "Continent" : "Europe"
+  },
+  "Oman" : {
+    "Country" : "Oman",
+    "Capital" : "Muscat",
+    "Lat" : "23.61666667",
+    "Long" : "58.583333",
+    "Continent" : "Asia"
+  },
+  "Pakistan" : {
+    "Country" : "Pakistan",
+    "Capital" : "Islamabad",
+    "Lat" : "33.68333333",
+    "Long" : "73.05",
+    "Continent" : "Asia"
+  },
+  "Palau" : {
+    "Country" : "Palau",
+    "Capital" : "Melekeok",
+    "Lat" : "7.483333333",
+    "Long" : "134.633333",
+    "Continent" : "Australia"
+  },
+  "Palestine" : {
+    "Country" : "Palestine",
+    "Capital" : "Jerusalem",
+    "Lat" : "31.76666667",
+    "Long" : "35.233333",
+    "Continent" : "Asia"
+  },
+  "Panama" : {
+    "Country" : "Panama",
+    "Capital" : "Panama City",
+    "Lat" : "8.966666667",
+    "Long" : "-79.533333",
+    "Continent" : "Central America"
+  },
+  "Papua New Guinea" : {
+    "Country" : "Papua New Guinea",
+    "Capital" : "Port Moresby",
+    "Lat" : "-9.45",
+    "Long" : "147.183333",
+    "Continent" : "Australia"
+  },
+  "Paraguay" : {
+    "Country" : "Paraguay",
+    "Capital" : "Asuncion",
+    "Lat" : "-25.26666667",
+    "Long" : "-57.666667",
+    "Continent" : "South America"
+  },
+  "Peru" : {
+    "Country" : "Peru",
+    "Capital" : "Lima",
+    "Lat" : "-12.05",
+    "Long" : "-77.05",
+    "Continent" : "South America"
+  },
+  "Philippines" : {
+    "Country" : "Philippines",
+    "Capital" : "Manila",
+    "Lat" : "14.6",
+    "Long" : "120.966667",
+    "Continent" : "Asia"
+  },
+  "Pitcairn Islands" : {
+    "Country" : "Pitcairn Islands",
+    "Capital" : "Adamstown",
+    "Lat" : "-25.06666667",
+    "Long" : "-130.083333",
+    "Continent" : "Australia"
+  },
+  "Poland" : {
+    "Country" : "Poland",
+    "Capital" : "Warsaw",
+    "Lat" : "52.25",
+    "Long" : "21",
+    "Continent" : "Europe"
+  },
+  "Portugal" : {
+    "Country" : "Portugal",
+    "Capital" : "Lisbon",
+    "Lat" : "38.71666667",
+    "Long" : "-9.133333",
+    "Continent" : "Europe"
+  },
+  "Puerto Rico" : {
+    "Country" : "Puerto Rico",
+    "Capital" : "San Juan",
+    "Lat" : "18.46666667",
+    "Long" : "-66.116667",
+    "Continent" : "North America"
+  },
+  "Qatar" : {
+    "Country" : "Qatar",
+    "Capital" : "Doha",
+    "Lat" : "25.28333333",
+    "Long" : "51.533333",
+    "Continent" : "Asia"
+  },
+  "Republic of Congo" : {
+    "Country" : "Republic of Congo",
+    "Capital" : "Brazzaville",
+    "Lat" : "-4.25",
+    "Long" : "15.283333",
+    "Continent" : "Africa"
+  },
+  "Romania" : {
+    "Country" : "Romania",
+    "Capital" : "Bucharest",
+    "Lat" : "44.43333333",
+    "Long" : "26.1",
+    "Continent" : "Europe"
+  },
+  "Russia" : {
+    "Country" : "Russia",
+    "Capital" : "Moscow",
+    "Lat" : "55.75",
+    "Long" : "37.6",
+    "Continent" : "Europe"
+  },
+  "Rwanda" : {
+    "Country" : "Rwanda",
+    "Capital" : "Kigali",
+    "Lat" : "-1.95",
+    "Long" : "30.05",
+    "Continent" : "Africa"
+  },
+  "Saint Barthelemy" : {
+    "Country" : "Saint Barthelemy",
+    "Capital" : "Gustavia",
+    "Lat" : "17.88333333",
+    "Long" : "-62.85",
+    "Continent" : "North America"
+  },
+  "Saint Helena" : {
+    "Country" : "Saint Helena",
+    "Capital" : "Jamestown",
+    "Lat" : "-15.93333333",
+    "Long" : "-5.716667",
+    "Continent" : "Africa"
+  },
+  "Saint Kitts and Nevis" : {
+    "Country" : "Saint Kitts and Nevis",
+    "Capital" : "Basseterre",
+    "Lat" : "17.3",
+    "Long" : "-62.716667",
+    "Continent" : "North America"
+  },
+  "Saint Lucia" : {
+    "Country" : "Saint Lucia",
+    "Capital" : "Castries",
+    "Lat" : "14",
+    "Long" : "-61",
+    "Continent" : "North America"
+  },
+  "Saint Martin" : {
+    "Country" : "Saint Martin",
+    "Capital" : "Marigot",
+    "Lat" : "18.0731",
+    "Long" : "-63.0822",
+    "Continent" : "North America"
+  },
+  "Saint Pierre and Miquelon" : {
+    "Country" : "Saint Pierre and Miquelon",
+    "Capital" : "Saint-Pierre",
+    "Lat" : "46.76666667",
+    "Long" : "-56.183333",
+    "Continent" : "Central America"
+  },
+  "Saint Vincent and the Grenadines" : {
+    "Country" : "Saint Vincent and the Grenadines",
+    "Capital" : "Kingstown",
+    "Lat" : "13.13333333",
+    "Long" : "-61.216667",
+    "Continent" : "Central America"
+  },
+  "Samoa" : {
+    "Country" : "Samoa",
+    "Capital" : "Apia",
+    "Lat" : "-13.81666667",
+    "Long" : "-171.766667",
+    "Continent" : "Australia"
+  },
+  "San Marino" : {
+    "Country" : "San Marino",
+    "Capital" : "San Marino",
+    "Lat" : "43.93333333",
+    "Long" : "12.416667",
+    "Continent" : "Europe"
+  },
+  "Sao Tome and Principe" : {
+    "Country" : "Sao Tome and Principe",
+    "Capital" : "Sao Tome",
+    "Lat" : "0.333333333",
+    "Long" : "6.733333",
+    "Continent" : "Africa"
+  },
+  "Saudi Arabia" : {
+    "Country" : "Saudi Arabia",
+    "Capital" : "Riyadh",
+    "Lat" : "24.65",
+    "Long" : "46.7",
+    "Continent" : "Asia"
+  },
+  "Senegal" : {
+    "Country" : "Senegal",
+    "Capital" : "Dakar",
+    "Lat" : "14.73333333",
+    "Long" : "-17.633333",
+    "Continent" : "Africa"
+  },
+  "Serbia" : {
+    "Country" : "Serbia",
+    "Capital" : "Belgrade",
+    "Lat" : "44.83333333",
+    "Long" : "20.5",
+    "Continent" : "Europe"
+  },
+  "Seychelles" : {
+    "Country" : "Seychelles",
+    "Capital" : "Victoria",
+    "Lat" : "-4.616666667",
+    "Long" : "55.45",
+    "Continent" : "Africa"
+  },
+  "Sierra Leone" : {
+    "Country" : "Sierra Leone",
+    "Capital" : "Freetown",
+    "Lat" : "8.483333333",
+    "Long" : "-13.233333",
+    "Continent" : "Africa"
+  },
+  "Singapore" : {
+    "Country" : "Singapore",
+    "Capital" : "Singapore",
+    "Lat" : "1.283333333",
+    "Long" : "103.85",
+    "Continent" : "Asia"
+  },
+  "Sint Maarten" : {
+    "Country" : "Sint Maarten",
+    "Capital" : "Philipsburg",
+    "Lat" : "18.01666667",
+    "Long" : "-63.033333",
+    "Continent" : "North America"
+  },
+  "Slovakia" : {
+    "Country" : "Slovakia",
+    "Capital" : "Bratislava",
+    "Lat" : "48.15",
+    "Long" : "17.116667",
+    "Continent" : "Europe"
+  },
+  "Slovenia" : {
+    "Country" : "Slovenia",
+    "Capital" : "Ljubljana",
+    "Lat" : "46.05",
+    "Long" : "14.516667",
+    "Continent" : "Europe"
+  },
+  "Solomon Islands" : {
+    "Country" : "Solomon Islands",
+    "Capital" : "Honiara",
+    "Lat" : "-9.433333333",
+    "Long" : "159.95",
+    "Continent" : "Australia"
+  },
+  "Somalia" : {
+    "Country" : "Somalia",
+    "Capital" : "Mogadishu",
+    "Lat" : "2.066666667",
+    "Long" : "45.333333",
+    "Continent" : "Africa"
+  },
+  "Somaliland" : {
+    "Country" : "Somaliland",
+    "Capital" : "Hargeisa",
+    "Lat" : "9.55",
+    "Long" : "44.05",
+    "Continent" : "Africa"
+  },
+  "South Africa" : {
+    "Country" : "South Africa",
+    "Capital" : "Pretoria",
+    "Lat" : "-25.7",
+    "Long" : "28.216667",
+    "Continent" : "Africa"
+  },
+  "South Georgia and South Sandwich Islands" : {
+    "Country" : "South Georgia and South Sandwich Islands",
+    "Capital" : "King Edward Point",
+    "Lat" : "-54.283333",
+    "Long" : "-36.5",
+    "Continent" : "Antarctica"
+  },
+  "South Korea" : {
+    "Country" : "South Korea",
+    "Capital" : "Seoul",
+    "Lat" : "37.55",
+    "Long" : "126.983333",
+    "Continent" : "Asia"
+  },
+  "South Sudan" : {
+    "Country" : "South Sudan",
+    "Capital" : "Juba",
+    "Lat" : "4.85",
+    "Long" : "31.616667",
+    "Continent" : "Africa"
+  },
+  "Spain" : {
+    "Country" : "Spain",
+    "Capital" : "Madrid",
+    "Lat" : "40.4",
+    "Long" : "-3.683333",
+    "Continent" : "Europe"
+  },
+  "Sri Lanka" : {
+    "Country" : "Sri Lanka",
+    "Capital" : "Colombo",
+    "Lat" : "6.916666667",
+    "Long" : "79.833333",
+    "Continent" : "Asia"
+  },
+  "Sudan" : {
+    "Country" : "Sudan",
+    "Capital" : "Khartoum",
+    "Lat" : "15.6",
+    "Long" : "32.533333",
+    "Continent" : "Africa"
+  },
+  "Suriname" : {
+    "Country" : "Suriname",
+    "Capital" : "Paramaribo",
+    "Lat" : "5.833333333",
+    "Long" : "-55.166667",
+    "Continent" : "South America"
+  },
+  "Svalbard" : {
+    "Country" : "Svalbard",
+    "Capital" : "Longyearbyen",
+    "Lat" : "78.21666667",
+    "Long" : "15.633333",
+    "Continent" : "Europe"
+  },
+  "Swaziland" : {
+    "Country" : "Swaziland",
+    "Capital" : "Mbabane",
+    "Lat" : "-26.31666667",
+    "Long" : "31.133333",
+    "Continent" : "Africa"
+  },
+  "Sweden" : {
+    "Country" : "Sweden",
+    "Capital" : "Stockholm",
+    "Lat" : "59.33333333",
+    "Long" : "18.05",
+    "Continent" : "Europe"
+  },
+  "Switzerland" : {
+    "Country" : "Switzerland",
+    "Capital" : "Bern",
+    "Lat" : "46.91666667",
+    "Long" : "7.466667",
+    "Continent" : "Europe"
+  },
+  "Syria" : {
+    "Country" : "Syria",
+    "Capital" : "Damascus",
+    "Lat" : "33.5",
+    "Long" : "36.3",
+    "Continent" : "Asia"
+  },
+  "Taiwan" : {
+    "Country" : "Taiwan",
+    "Capital" : "Taipei",
+    "Lat" : "25.03333333",
+    "Long" : "121.516667",
+    "Continent" : "Asia"
+  },
+  "Tajikistan" : {
+    "Country" : "Tajikistan",
+    "Capital" : "Dushanbe",
+    "Lat" : "38.55",
+    "Long" : "68.766667",
+    "Continent" : "Asia"
+  },
+  "Tanzania" : {
+    "Country" : "Tanzania",
+    "Capital" : "Dar es Salaam",
+    "Lat" : "-6.8",
+    "Long" : "39.283333",
+    "Continent" : "Africa"
+  },
+  "Thailand" : {
+    "Country" : "Thailand",
+    "Capital" : "Bangkok",
+    "Lat" : "13.75",
+    "Long" : "100.516667",
+    "Continent" : "Asia"
+  },
+  "The Gambia" : {
+    "Country" : "The Gambia",
+    "Capital" : "Banjul",
+    "Lat" : "13.45",
+    "Long" : "-16.566667",
+    "Continent" : "Africa"
+  },
+  "Timor-Leste" : {
+    "Country" : "Timor-Leste",
+    "Capital" : "Dili",
+    "Lat" : "-8.583333333",
+    "Long" : "125.6",
+    "Continent" : "Asia"
+  },
+  "Togo" : {
+    "Country" : "Togo",
+    "Capital" : "Lome",
+    "Lat" : "6.116666667",
+    "Long" : "1.216667",
+    "Continent" : "Africa"
+  },
+  "Tokelau" : {
+    "Country" : "Tokelau",
+    "Capital" : "Atafu",
+    "Lat" : "-9.166667",
+    "Long" : "-171.833333",
+    "Continent" : "Australia"
+  },
+  "Tonga" : {
+    "Country" : "Tonga",
+    "Capital" : "Nuku’alofa",
+    "Lat" : "-21.13333333",
+    "Long" : "-175.2",
+    "Continent" : "Australia"
+  },
+  "Trinidad and Tobago" : {
+    "Country" : "Trinidad and Tobago",
+    "Capital" : "Port of Spain",
+    "Lat" : "10.65",
+    "Long" : "-61.516667",
+    "Continent" : "North America"
+  },
+  "Tunisia" : {
+    "Country" : "Tunisia",
+    "Capital" : "Tunis",
+    "Lat" : "36.8",
+    "Long" : "10.183333",
+    "Continent" : "Africa"
+  },
+  "Turkey" : {
+    "Country" : "Turkey",
+    "Capital" : "Ankara",
+    "Lat" : "39.93333333",
+    "Long" : "32.866667",
+    "Continent" : "Europe"
+  },
+  "Turkmenistan" : {
+    "Country" : "Turkmenistan",
+    "Capital" : "Ashgabat",
+    "Lat" : "37.95",
+    "Long" : "58.383333",
+    "Continent" : "Asia"
+  },
+  "Turks and Caicos Islands" : {
+    "Country" : "Turks and Caicos Islands",
+    "Capital" : "Grand Turk",
+    "Lat" : "21.46666667",
+    "Long" : "-71.133333",
+    "Continent" : "North America"
+  },
+  "Tuvalu" : {
+    "Country" : "Tuvalu",
+    "Capital" : "Funafuti",
+    "Lat" : "-8.516666667",
+    "Long" : "179.216667",
+    "Continent" : "Australia"
+  },
+  "Uganda" : {
+    "Country" : "Uganda",
+    "Capital" : "Kampala",
+    "Lat" : "0.316666667",
+    "Long" : "32.55",
+    "Continent" : "Africa"
+  },
+  "Ukraine" : {
+    "Country" : "Ukraine",
+    "Capital" : "Kyiv",
+    "Lat" : "50.43333333",
+    "Long" : "30.516667",
+    "Continent" : "Europe"
+  },
+  "United Arab Emirates" : {
+    "Country" : "United Arab Emirates",
+    "Capital" : "Abu Dhabi",
+    "Lat" : "24.46666667",
+    "Long" : "54.366667",
+    "Continent" : "Asia"
+  },
+  "United Kingdom" : {
+    "Country" : "United Kingdom",
+    "Capital" : "London",
+    "Lat" : "51.5",
+    "Long" : "-0.083333",
+    "Continent" : "Europe"
+  },
+  "United States" : {
+    "Country" : "United States",
+    "Capital" : "Washington, D.C.",
+    "Lat" : "38.883333",
+    "Long" : "-77",
+    "Continent" : "Central America"
+  },
+  "Uruguay" : {
+    "Country" : "Uruguay",
+    "Capital" : "Montevideo",
+    "Lat" : "-34.85",
+    "Long" : "-56.166667",
+    "Continent" : "South America"
+  },
+  "US Minor Outlying Islands" : {
+    "Country" : "US Minor Outlying Islands",
+    "Capital" : "Washington, D.C.",
+    "Lat" : "38.883333",
+    "Long" : "-77",
+    "Continent" : "Australia"
+  },
+  "US Virgin Islands" : {
+    "Country" : "US Virgin Islands",
+    "Capital" : "Charlotte Amalie",
+    "Lat" : "18.35",
+    "Long" : "-64.933333",
+    "Continent" : "North America"
+  },
+  "Uzbekistan" : {
+    "Country" : "Uzbekistan",
+    "Capital" : "Tashkent",
+    "Lat" : "41.31666667",
+    "Long" : "69.25",
+    "Continent" : "Asia"
+  },
+  "Vanuatu" : {
+    "Country" : "Vanuatu",
+    "Capital" : "Port-Vila",
+    "Lat" : "-17.73333333",
+    "Long" : "168.316667",
+    "Continent" : "Australia"
+  },
+  "Vatican City" : {
+    "Country" : "Vatican City",
+    "Capital" : "Vatican City",
+    "Lat" : "41.9",
+    "Long" : "12.45",
+    "Continent" : "Europe"
+  },
+  "Venezuela" : {
+    "Country" : "Venezuela",
+    "Capital" : "Caracas",
+    "Lat" : "10.48333333",
+    "Long" : "-66.866667",
+    "Continent" : "South America"
+  },
+  "Vietnam" : {
+    "Country" : "Vietnam",
+    "Capital" : "Hanoi",
+    "Lat" : "21.03333333",
+    "Long" : "105.85",
+    "Continent" : "Asia"
+  },
+  "Wallis and Futuna" : {
+    "Country" : "Wallis and Futuna",
+    "Capital" : "Mata-Utu",
+    "Lat" : "-13.95",
+    "Long" : "-171.933333",
+    "Continent" : "Australia"
+  },
+  "Western Sahara" : {
+    "Country" : "Western Sahara",
+    "Capital" : "El-AaiÃºn",
+    "Lat" : "27.153611",
+    "Long" : "-13.203333",
+    "Continent" : "Africa"
+  },
+  "Yemen" : {
+    "Country" : "Yemen",
+    "Capital" : "Sanaa",
+    "Lat" : "15.35",
+    "Long" : "44.2",
+    "Continent" : "Asia"
+  },
+  "Zambia" : {
+    "Country" : "Zambia",
+    "Capital" : "Lusaka",
+    "Lat" : "-15.41666667",
+    "Long" : "28.283333",
+    "Continent" : "Africa"
+  },
+  "Zimbabwe" : {
+    "Country" : "Zimbabwe",
+    "Capital" : "Harare",
+    "Lat" : "-17.81666667",
+    "Long" : "31.033333",
+    "Continent" : "Africa"
+  }
+}
