@@ -34,6 +34,7 @@
     padding-top: 30px;
     padding-bottom: 20px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .timer-display {
@@ -169,7 +170,13 @@ ul {
     padding-left: 10px;
 }
 
+.intro-text {
+    background: rgb(232,142,94);
+    min-width: 500px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 
+}
     
 /* pale green
 #cbe6a5
