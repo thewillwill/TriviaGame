@@ -24,7 +24,7 @@
         <div class="map-container rounded">
             <div class="gmap-background col" id="googlemaps"></div>
             <button class="btn-big" id="start-button">Start Game</button>.
-            <button class="btn-big" id="restart-button">Restart Game</button>
+            <button class="btn-big" id="restart-button">Restart</button>
             <div class="row">
                 <div class="col-8">
                     <div class="row">
@@ -38,7 +38,9 @@
                                 </ol>
                             </div>
                             <div id="message-area"></div>
-                            <div id="next-question-message">Next Question in<span id="next-question-seconds">XX</span>secs</div>
+                            <div id="next-question-message">
+                                <span id="next-question-seconds"></span> <!-- not used, I didn't get to implement a second timer to show when the next question will display -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -81,7 +83,6 @@
     </footer>
     </div>
     <!-- /container -->
-   
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
