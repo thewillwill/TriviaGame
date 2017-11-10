@@ -2016,9 +2016,12 @@ function selectAlternateAnswers() {
             //        console.log("found new answer: " + randomCapital)
             pickedAnswers.push(randomCapital);
         }
-        //console.log("in while loop for answers: " + randomCapital);
+        
     }
     while (pickedAnswers.length < numPossibleAnswers);
+
+    //randomly sort the answers so the correct answer isn't always first
+    pickedAnswers.sort(function(a, b){return 0.5 - Math.random()});
 
 }
 
