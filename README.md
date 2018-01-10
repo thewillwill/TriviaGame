@@ -1,5 +1,4 @@
-# TriviaGame
-A Trivia game using JavaScript for the logic and jQuery to manipulate HTML
+# World Capitals Trivia Game
 
 #### How well do you know the Capitals of the world?
 
